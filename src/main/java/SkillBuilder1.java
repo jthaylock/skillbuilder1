@@ -45,7 +45,7 @@ public class SkillBuilder1
         double wallArea = wallHeight * wallWidth;
         System.out.println("Wall area: " + wallArea + " square feet");
         double gallons = wallArea / 350;
-        System.out.printf("Paint needed: %.2f" + " gallons\n", gallons);
+        System.out.printf("Paint needed: %.2f" + " gallons \n", gallons);
         double cans = Math.ceil(gallons);
         System.out.print("Cans needed: " + cans);
     }
